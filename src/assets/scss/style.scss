@@ -1,0 +1,41 @@
+// If you want to override variables do it here
+@import "variables";
+
+// Import styles
+@import "~@coreui/coreui/scss/coreui";
+
+// If you want to add something do it here
+@import "custom";
+
+.card-header:not(.content-center) > .c-icon:first-child {
+  margin-right: 0.1rem;
+  margin-top: 0.1rem;
+  vertical-align: top;
+  width: 1.2rem;
+  height: 1.2rem;
+  font-size: 1.2rem;
+}
+
+.orb {
+  min-height: 70vh;
+  position: relative;
+  .orbit-spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+}
+
+
+.vdpComponent{ 
+  input {
+    height: 30px;
+    width: 100%;
+    max-width: 400px;
+    font-size: 18px;
+    border: 1px solid grey;
+    padding: 18px;
+    border-radius: 5px;
+  }
+}
